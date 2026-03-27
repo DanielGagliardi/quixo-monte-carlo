@@ -12,6 +12,10 @@ def create_board():
 def is_border(r, c):
     return r == 0 or r == SIZE - 1 or c == 0 or c == SIZE - 1
 
+def opponent(player):
+    return -player  # P1 ↔ P2 since they are +1 and -1
+
+
 
 # ---------- Core Mechanics ----------
 
@@ -97,21 +101,28 @@ def has_line(board, player):
     return False
 
 
-def is_terminal(board):
-    return has_line(board, P1) or has_line(board, P2)
+MAX_MOVES = 200  # safe upper bound; typical game is 10-50 moves
+
+def is_terminal(board, move_count=None):
+    if has_line(board, P1) or has_line(board, P2):
+        return True
+    if move_count is not None and move_count >= MAX_MOVES:
+        return True  # forced draw
+    return False
 
 
-def reward(board, player):
-    opponent = -player
 
-    # precedence rule: forming opponent line = loss
-    if has_line(board, opponent):
-        return -1
-
-    if has_line(board, player):
-        return 1
-
+def reward(board, last_mover):
+    """
+    Returns +1 if last_mover won, -1 if last_mover lost.
+    MUST be called with the player who made the last move.
+    For the opponent's reward, negate: -reward(board, last_mover).
+    """
+    opponent = -last_mover
+    if has_line(board, opponent): return -1  # formed opponent's line = loss
+    if has_line(board, last_mover): return 1
     return 0
+
 
 
 # ---------- Game Wrapper ----------

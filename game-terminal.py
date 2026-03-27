@@ -100,6 +100,8 @@ def main():
     board = create_board()
     players = ["X", "O"]
     turn = 0
+    move_count = 0
+    MAX_MOVES = 200
 
     while True:
         player = players[turn % 2]
@@ -134,6 +136,11 @@ def main():
                 break
 
             turn += 1
+            move_count += 1
+            if move_count >= MAX_MOVES:
+                print_board(board)
+                print("Draw — move limit reached.")
+                break
 
         except ValueError as e:
             print("Error:", e)

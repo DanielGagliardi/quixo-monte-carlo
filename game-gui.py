@@ -114,11 +114,20 @@ class Game:
         return False
 
     def end(self, text):
-        print(text)
+        overlay = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
+        overlay.fill((0, 0, 0, 160))
+        screen.blit(overlay, (0, 0))
+        msg = font.render(text, True, (255, 220, 50))
+        screen.blit(msg, (WIDTH // 2 - msg.get_width() // 2, HEIGHT // 2 - msg.get_height() // 2))
+        pygame.display.flip()
+        pygame.time.wait(2500)
         pygame.quit()
         sys.exit()
 
 game = Game()
+
+move_count = 0
+MAX_MOVES = 200
 
 while game.running:
     for event in pygame.event.get():
@@ -160,6 +169,11 @@ while game.running:
                         if game.has_line(player):
                             game.draw()
                             game.end(f"{player} wins")
+                        
+                        move_count += 1
+                        if move_count >= MAX_MOVES:
+                            game.draw()
+                            game.end("Draw — move limit reached.")
 
                         game.player = opponent
 
