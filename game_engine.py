@@ -5,6 +5,12 @@ P1 = 1
 P2 = -1
 
 
+# Pre-compute border positions once at module load time
+BORDER_POSITIONS = [
+    (r, c) for r in range(SIZE) for c in range(SIZE)
+    if r == 0 or r == SIZE-1 or c == 0 or c == SIZE-1
+]
+
 def create_board():
     return tuple(tuple(EMPTY for _ in range(SIZE)) for _ in range(SIZE))
 
@@ -19,29 +25,23 @@ def opponent(player):
 
 # ---------- Core Mechanics ----------
 
+# push — avoid full list comprehension, copy only the affected row/col
 def push(board, r, c, dr, dc, player):
     new = [list(row) for row in board]
-
     if r == dr:
-        if dc == 0:  # push from left
-            for i in range(c, 0, -1):
-                new[r][i] = new[r][i - 1]
-            new[r][0] = player
-        else:  # push from right
-            for i in range(c, SIZE - 1):
-                new[r][i] = new[r][i + 1]
-            new[r][SIZE - 1] = player
-
+        row = new[r]
+        if dc == 0:
+            del row[c]; row.insert(0, player)
+        else:
+            del row[c]; row.append(player)
     else:
-        if dr == 0:  # push from top
-            for i in range(r, 0, -1):
-                new[i][c] = new[i - 1][c]
-            new[0][c] = player
-        else:  # push from bottom
-            for i in range(r, SIZE - 1):
-                new[i][c] = new[i + 1][c]
-            new[SIZE - 1][c] = player
-
+        col = [new[i][c] for i in range(SIZE)]
+        if dr == 0:
+            del col[r]; col.insert(0, player)
+        else:
+            del col[r]; col.append(player)
+        for i in range(SIZE):
+            new[i][c] = col[i]
     return tuple(tuple(row) for row in new)
 
 
@@ -54,27 +54,13 @@ def next_state(board, move, player):
 
 def legal_moves(board, player):
     moves = []
-
-    for r in range(SIZE):
-        for c in range(SIZE):
-            if not is_border(r, c):
-                continue
-
-            if board[r][c] not in (EMPTY, player):
-                continue
-
-            # same row → left/right edges
-            if c != 0:
-                moves.append((r, c, r, 0))
-            if c != SIZE - 1:
-                moves.append((r, c, r, SIZE - 1))
-
-            # same column → top/bottom
-            if r != 0:
-                moves.append((r, c, 0, c))
-            if r != SIZE - 1:
-                moves.append((r, c, SIZE - 1, c))
-
+    for r, c in BORDER_POSITIONS:           # skip is_border check entirely
+        if board[r][c] != EMPTY and board[r][c] != player:
+            continue
+        if c != 0:        moves.append((r, c, r, 0))
+        if c != SIZE - 1: moves.append((r, c, r, SIZE - 1))
+        if r != 0:        moves.append((r, c, 0, c))
+        if r != SIZE - 1: moves.append((r, c, SIZE - 1, c))
     return moves
 
 
