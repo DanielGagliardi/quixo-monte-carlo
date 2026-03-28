@@ -4,7 +4,7 @@
 import math
 import random
 import time
-from game_engine import Game, P1, P2, SIZE, has_line
+from game_engine import Game, P1, P2, SIZE
 
 # Constants 
 
