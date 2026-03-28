@@ -213,7 +213,7 @@ def move_str(move):
 
 # ---------- Self-play ----------
 
-def self_play():
+def self_play(iterations=4000):
     game = Game()
     state = game.initial_state()
     player = P1
@@ -223,7 +223,7 @@ def self_play():
         print(f"Turn {turn}, Player {'X' if player == P1 else 'O'}")
         print_board(state)
 
-        move = mcts(state, player, game, iterations=2000)
+        move = mcts(state, player, game, iterations=iterations)
         print("Move:", move_str(move))
 
         state = game.next_state(state, move, player)
