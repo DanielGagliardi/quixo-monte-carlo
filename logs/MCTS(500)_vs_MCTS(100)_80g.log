@@ -1,0 +1,89 @@
+18:29:08  Starting 'MCTS(500)_vs_MCTS(100)_80g' — 80 games  (MCTS(500) vs MCTS(100))
+18:29:12    [W] game   1/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:16    [W] game   2/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:19    [W] game   3/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:24    [W] game   4/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:26    [W] game   5/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:31    [W] game   6/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:34    [W] game   7/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:38    [W] game   8/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:41    [W] game   9/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:45    [W] game  10/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:50    [W] game  11/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:53    [W] game  12/80  (a1=P1)  raw=+1  agent1_result=+1
+18:29:58    [W] game  13/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:03    [W] game  14/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:06    [W] game  15/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:10    [W] game  16/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:13    [W] game  17/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:15    [W] game  18/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:19    [W] game  19/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:23    [W] game  20/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:26    [W] game  21/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:29    [W] game  22/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:31    [W] game  23/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:36    [W] game  24/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:39    [W] game  25/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:43    [W] game  26/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:46    [W] game  27/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:51    [W] game  28/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:55    [W] game  29/80  (a1=P1)  raw=+1  agent1_result=+1
+18:30:59    [W] game  30/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:04    [W] game  31/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:10    [W] game  32/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:13    [W] game  33/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:18    [W] game  34/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:20    [W] game  35/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:22    [W] game  36/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:25    [W] game  37/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:28    [W] game  38/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:31    [W] game  39/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:34    [W] game  40/80  (a1=P1)  raw=+1  agent1_result=+1
+18:31:38    [W] game  41/80  (a1=P2)  raw=-1  agent1_result=+1
+18:31:42    [W] game  42/80  (a1=P2)  raw=-1  agent1_result=+1
+18:31:46    [W] game  43/80  (a1=P2)  raw=-1  agent1_result=+1
+18:31:49    [L] game  44/80  (a1=P2)  raw=+1  agent1_result=-1
+18:31:54    [W] game  45/80  (a1=P2)  raw=-1  agent1_result=+1
+18:31:57    [W] game  46/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:00    [W] game  47/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:04    [W] game  48/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:09    [W] game  49/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:15    [L] game  50/80  (a1=P2)  raw=+1  agent1_result=-1
+18:32:18    [W] game  51/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:22    [W] game  52/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:26    [W] game  53/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:29    [L] game  54/80  (a1=P2)  raw=+1  agent1_result=-1
+18:32:33    [W] game  55/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:37    [W] game  56/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:41    [W] game  57/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:44    [W] game  58/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:48    [W] game  59/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:51    [L] game  60/80  (a1=P2)  raw=+1  agent1_result=-1
+18:32:54    [W] game  61/80  (a1=P2)  raw=-1  agent1_result=+1
+18:32:57    [W] game  62/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:02    [W] game  63/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:06    [W] game  64/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:09    [W] game  65/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:12    [W] game  66/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:16    [W] game  67/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:22    [W] game  68/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:25    [W] game  69/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:29    [W] game  70/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:34    [W] game  71/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:38    [W] game  72/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:42    [W] game  73/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:43    [W] game  74/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:47    [W] game  75/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:51    [W] game  76/80  (a1=P2)  raw=-1  agent1_result=+1
+18:33:55    [L] game  77/80  (a1=P2)  raw=+1  agent1_result=-1
+18:33:58    [W] game  78/80  (a1=P2)  raw=-1  agent1_result=+1
+18:34:01    [W] game  79/80  (a1=P2)  raw=-1  agent1_result=+1
+18:34:06    [W] game  80/80  (a1=P2)  raw=-1  agent1_result=+1
+18:34:06  
+──────────────────────────────────────────────────
+  MCTS(500)            vs MCTS(100)
+  Games  : 80 / 80  (298.6s)
+  Wins   :  75 ( 93.8%)
+  Draws  :   0 (  0.0%)
+  Losses :   5 (  6.2%)
+──────────────────────────────────────────────────

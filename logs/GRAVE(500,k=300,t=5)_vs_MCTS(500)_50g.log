@@ -1,0 +1,59 @@
+09:27:07  Starting 'GRAVE(500,k=300,t=5)_vs_MCTS(500)_50g' — 50 games  (GRAVE(500,k=300,t=5) vs MCTS(500))
+09:27:13    [W] game   1/50  (a1=P1)  raw=+1  agent1_result=+1
+09:27:25    [L] game   2/50  (a1=P1)  raw=-1  agent1_result=-1
+09:27:45    [W] game   3/50  (a1=P1)  raw=+1  agent1_result=+1
+09:27:54    [L] game   4/50  (a1=P1)  raw=-1  agent1_result=-1
+09:27:59    [W] game   5/50  (a1=P1)  raw=+1  agent1_result=+1
+09:28:14    [L] game   6/50  (a1=P1)  raw=-1  agent1_result=-1
+09:28:26    [W] game   7/50  (a1=P1)  raw=+1  agent1_result=+1
+09:28:36    [W] game   8/50  (a1=P1)  raw=+1  agent1_result=+1
+09:28:43    [L] game   9/50  (a1=P1)  raw=-1  agent1_result=-1
+09:28:49    [W] game  10/50  (a1=P1)  raw=+1  agent1_result=+1
+09:28:58    [W] game  11/50  (a1=P1)  raw=+1  agent1_result=+1
+09:29:11    [W] game  12/50  (a1=P1)  raw=+1  agent1_result=+1
+09:29:17    [W] game  13/50  (a1=P1)  raw=+1  agent1_result=+1
+09:29:24    [W] game  14/50  (a1=P1)  raw=+1  agent1_result=+1
+09:29:38    [W] game  15/50  (a1=P1)  raw=+1  agent1_result=+1
+09:29:50    [W] game  16/50  (a1=P1)  raw=+1  agent1_result=+1
+09:30:07    [L] game  17/50  (a1=P1)  raw=-1  agent1_result=-1
+09:30:15    [W] game  18/50  (a1=P1)  raw=+1  agent1_result=+1
+09:30:26    [W] game  19/50  (a1=P1)  raw=+1  agent1_result=+1
+09:30:33    [W] game  20/50  (a1=P1)  raw=+1  agent1_result=+1
+09:30:49    [W] game  21/50  (a1=P1)  raw=+1  agent1_result=+1
+09:31:02    [W] game  22/50  (a1=P1)  raw=+1  agent1_result=+1
+09:31:15    [W] game  23/50  (a1=P1)  raw=+1  agent1_result=+1
+09:31:22    [W] game  24/50  (a1=P1)  raw=+1  agent1_result=+1
+09:31:27    [L] game  25/50  (a1=P1)  raw=-1  agent1_result=-1
+09:31:48    [W] game  26/50  (a1=P2)  raw=-1  agent1_result=+1
+09:31:57    [W] game  27/50  (a1=P2)  raw=-1  agent1_result=+1
+09:32:12    [W] game  28/50  (a1=P2)  raw=-1  agent1_result=+1
+09:32:18    [L] game  29/50  (a1=P2)  raw=+1  agent1_result=-1
+09:32:30    [W] game  30/50  (a1=P2)  raw=-1  agent1_result=+1
+09:32:35    [L] game  31/50  (a1=P2)  raw=+1  agent1_result=-1
+09:32:39    [W] game  32/50  (a1=P2)  raw=-1  agent1_result=+1
+09:32:44    [L] game  33/50  (a1=P2)  raw=+1  agent1_result=-1
+09:32:50    [L] game  34/50  (a1=P2)  raw=+1  agent1_result=-1
+09:33:00    [L] game  35/50  (a1=P2)  raw=+1  agent1_result=-1
+09:33:05    [W] game  36/50  (a1=P2)  raw=-1  agent1_result=+1
+09:33:13    [L] game  37/50  (a1=P2)  raw=+1  agent1_result=-1
+09:33:25    [W] game  38/50  (a1=P2)  raw=-1  agent1_result=+1
+09:33:35    [W] game  39/50  (a1=P2)  raw=-1  agent1_result=+1
+09:33:42    [W] game  40/50  (a1=P2)  raw=-1  agent1_result=+1
+09:33:47    [L] game  41/50  (a1=P2)  raw=+1  agent1_result=-1
+09:33:56    [L] game  42/50  (a1=P2)  raw=+1  agent1_result=-1
+09:34:05    [W] game  43/50  (a1=P2)  raw=-1  agent1_result=+1
+09:34:12    [W] game  44/50  (a1=P2)  raw=-1  agent1_result=+1
+09:34:22    [L] game  45/50  (a1=P2)  raw=+1  agent1_result=-1
+09:34:30    [W] game  46/50  (a1=P2)  raw=-1  agent1_result=+1
+09:34:38    [L] game  47/50  (a1=P2)  raw=+1  agent1_result=-1
+09:34:43    [L] game  48/50  (a1=P2)  raw=+1  agent1_result=-1
+09:34:57    [W] game  49/50  (a1=P2)  raw=-1  agent1_result=+1
+09:35:03    [W] game  50/50  (a1=P2)  raw=-1  agent1_result=+1
+09:35:03  
+──────────────────────────────────────────────────
+  GRAVE(500,k=300,t=5) vs MCTS(500)
+  Games  : 50 / 50  (476.7s)
+  Wins   :  33 ( 66.0%)
+  Draws  :   0 (  0.0%)
+  Losses :  17 ( 34.0%)
+──────────────────────────────────────────────────

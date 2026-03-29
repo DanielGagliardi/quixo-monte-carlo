@@ -1,0 +1,49 @@
+18:34:06  Starting 'MCTS(1000)_vs_MCTS(500)_40g' — 40 games  (MCTS(1000) vs MCTS(500))
+18:34:12    [W] game   1/40  (a1=P1)  raw=+1  agent1_result=+1
+18:34:32    [W] game   2/40  (a1=P1)  raw=+1  agent1_result=+1
+18:34:42    [W] game   3/40  (a1=P1)  raw=+1  agent1_result=+1
+18:35:07    [W] game   4/40  (a1=P1)  raw=+1  agent1_result=+1
+18:35:40    [W] game   5/40  (a1=P1)  raw=+1  agent1_result=+1
+18:35:57    [L] game   6/40  (a1=P1)  raw=-1  agent1_result=-1
+18:36:05    [L] game   7/40  (a1=P1)  raw=-1  agent1_result=-1
+18:36:25    [W] game   8/40  (a1=P1)  raw=+1  agent1_result=+1
+18:36:40    [L] game   9/40  (a1=P1)  raw=-1  agent1_result=-1
+18:36:54    [W] game  10/40  (a1=P1)  raw=+1  agent1_result=+1
+18:37:10    [W] game  11/40  (a1=P1)  raw=+1  agent1_result=+1
+18:37:19    [W] game  12/40  (a1=P1)  raw=+1  agent1_result=+1
+18:37:30    [W] game  13/40  (a1=P1)  raw=+1  agent1_result=+1
+18:37:43    [W] game  14/40  (a1=P1)  raw=+1  agent1_result=+1
+18:37:55    [W] game  15/40  (a1=P1)  raw=+1  agent1_result=+1
+18:38:04    [W] game  16/40  (a1=P1)  raw=+1  agent1_result=+1
+18:38:16    [L] game  17/40  (a1=P1)  raw=-1  agent1_result=-1
+18:38:26    [W] game  18/40  (a1=P1)  raw=+1  agent1_result=+1
+18:38:46    [W] game  19/40  (a1=P1)  raw=+1  agent1_result=+1
+18:38:59    [L] game  20/40  (a1=P1)  raw=-1  agent1_result=-1
+18:39:12    [W] game  21/40  (a1=P2)  raw=-1  agent1_result=+1
+18:39:33    [W] game  22/40  (a1=P2)  raw=-1  agent1_result=+1
+18:39:55    [L] game  23/40  (a1=P2)  raw=+1  agent1_result=-1
+18:40:07    [L] game  24/40  (a1=P2)  raw=+1  agent1_result=-1
+18:40:20    [W] game  25/40  (a1=P2)  raw=-1  agent1_result=+1
+18:40:33    [W] game  26/40  (a1=P2)  raw=-1  agent1_result=+1
+18:40:40    [W] game  27/40  (a1=P2)  raw=-1  agent1_result=+1
+18:40:54    [W] game  28/40  (a1=P2)  raw=-1  agent1_result=+1
+18:41:04    [W] game  29/40  (a1=P2)  raw=-1  agent1_result=+1
+18:41:20    [W] game  30/40  (a1=P2)  raw=-1  agent1_result=+1
+18:41:29    [W] game  31/40  (a1=P2)  raw=-1  agent1_result=+1
+18:41:43    [W] game  32/40  (a1=P2)  raw=-1  agent1_result=+1
+18:41:56    [W] game  33/40  (a1=P2)  raw=-1  agent1_result=+1
+18:42:09    [W] game  34/40  (a1=P2)  raw=-1  agent1_result=+1
+18:42:16    [L] game  35/40  (a1=P2)  raw=+1  agent1_result=-1
+18:42:33    [L] game  36/40  (a1=P2)  raw=+1  agent1_result=-1
+18:42:51    [W] game  37/40  (a1=P2)  raw=-1  agent1_result=+1
+18:43:04    [L] game  38/40  (a1=P2)  raw=+1  agent1_result=-1
+18:43:17    [L] game  39/40  (a1=P2)  raw=+1  agent1_result=-1
+18:43:23    [W] game  40/40  (a1=P2)  raw=-1  agent1_result=+1
+18:43:23  
+──────────────────────────────────────────────────
+  MCTS(1000)           vs MCTS(500)
+  Games  : 40 / 40  (557.1s)
+  Wins   :  29 ( 72.5%)
+  Draws  :   0 (  0.0%)
+  Losses :  11 ( 27.5%)
+──────────────────────────────────────────────────
