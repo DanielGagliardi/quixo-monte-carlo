@@ -1,0 +1,66 @@
+16:36:19  Starting 'RAVE(1000,k=3000)_vs_MCTS(500)_50g' — 50 games (RAVE(1000,k=3000) vs MCTS(500))
+16:36:29    [W] game   1/50  (a1=P1)  raw=+1  a1=+1
+16:36:38    [W] game   2/50  (a1=P1)  raw=+1  a1=+1
+16:36:47    [W] game   3/50  (a1=P1)  raw=+1  a1=+1
+16:36:59    [W] game   4/50  (a1=P1)  raw=+1  a1=+1
+16:37:15    [W] game   5/50  (a1=P1)  raw=+1  a1=+1
+16:37:28    [W] game   6/50  (a1=P1)  raw=+1  a1=+1
+16:37:44    [W] game   7/50  (a1=P1)  raw=+1  a1=+1
+16:37:58    [W] game   8/50  (a1=P1)  raw=+1  a1=+1
+16:38:10    [W] game   9/50  (a1=P1)  raw=+1  a1=+1
+16:38:23    [W] game  10/50  (a1=P1)  raw=+1  a1=+1
+16:38:36    [W] game  11/50  (a1=P1)  raw=+1  a1=+1
+16:38:48    [W] game  12/50  (a1=P1)  raw=+1  a1=+1
+16:39:01    [W] game  13/50  (a1=P1)  raw=+1  a1=+1
+16:39:14    [W] game  14/50  (a1=P1)  raw=+1  a1=+1
+16:39:22    [L] game  15/50  (a1=P1)  raw=-1  a1=-1
+16:39:28    [W] game  16/50  (a1=P1)  raw=+1  a1=+1
+16:39:38    [W] game  17/50  (a1=P1)  raw=+1  a1=+1
+16:39:50    [W] game  18/50  (a1=P1)  raw=+1  a1=+1
+16:40:02    [W] game  19/50  (a1=P1)  raw=+1  a1=+1
+16:40:14    [W] game  20/50  (a1=P1)  raw=+1  a1=+1
+16:40:28    [W] game  21/50  (a1=P1)  raw=+1  a1=+1
+16:40:47    [W] game  22/50  (a1=P1)  raw=+1  a1=+1
+16:41:09    [L] game  23/50  (a1=P1)  raw=-1  a1=-1
+16:41:18    [W] game  24/50  (a1=P1)  raw=+1  a1=+1
+16:41:30    [L] game  25/50  (a1=P1)  raw=-1  a1=-1
+16:41:44    [W] game  26/50  (a1=P2)  raw=-1  a1=+1
+16:42:11    [W] game  27/50  (a1=P2)  raw=-1  a1=+1
+16:42:47    [L] game  28/50  (a1=P2)  raw=+1  a1=-1
+16:42:58    [W] game  29/50  (a1=P2)  raw=-1  a1=+1
+16:43:14    [L] game  30/50  (a1=P2)  raw=+1  a1=-1
+16:43:29    [W] game  31/50  (a1=P2)  raw=-1  a1=+1
+16:43:51    [W] game  32/50  (a1=P2)  raw=-1  a1=+1
+16:44:13    [W] game  33/50  (a1=P2)  raw=-1  a1=+1
+16:44:29    [W] game  34/50  (a1=P2)  raw=-1  a1=+1
+16:44:50    [W] game  35/50  (a1=P2)  raw=-1  a1=+1
+16:44:57    [W] game  36/50  (a1=P2)  raw=-1  a1=+1
+16:45:10    [W] game  37/50  (a1=P2)  raw=-1  a1=+1
+16:45:24    [W] game  38/50  (a1=P2)  raw=-1  a1=+1
+16:45:40    [W] game  39/50  (a1=P2)  raw=-1  a1=+1
+16:46:12    [W] game  40/50  (a1=P2)  raw=-1  a1=+1
+16:46:26    [W] game  41/50  (a1=P2)  raw=-1  a1=+1
+16:46:36    [L] game  42/50  (a1=P2)  raw=+1  a1=-1
+16:46:46    [L] game  43/50  (a1=P2)  raw=+1  a1=-1
+16:47:07    [W] game  44/50  (a1=P2)  raw=-1  a1=+1
+16:47:16    [W] game  45/50  (a1=P2)  raw=-1  a1=+1
+16:47:28    [W] game  46/50  (a1=P2)  raw=-1  a1=+1
+16:47:42    [W] game  47/50  (a1=P2)  raw=-1  a1=+1
+16:47:58    [W] game  48/50  (a1=P2)  raw=-1  a1=+1
+16:48:08    [L] game  49/50  (a1=P2)  raw=+1  a1=-1
+16:48:25    [W] game  50/50  (a1=P2)  raw=-1  a1=+1
+16:48:25  
+──────────────────────────────────────────────────────
+  RAVE(1000,k=3000)         vs MCTS(500)
+  Games  : 50/50  (725.9s)
+  Wins   :  42 ( 84.0%)
+  Draws  :   0 (  0.0%)
+  Losses :   8 ( 16.0%)
+──────────────────────────────────────────────────────
+18:03:34  'RAVE(1000,k=3000)_vs_MCTS(500)_50g' already complete — using cached result.
+19:05:07  'RAVE(1000,k=3000)_vs_MCTS(500)_50g' already complete — using cached result.
+20:02:57  'RAVE(1000,k=3000)_vs_MCTS(500)_50g' already complete — using cached result.
+21:06:58  'RAVE(1000,k=3000)_vs_MCTS(500)_50g' already complete — using cached result.
+22:28:35  'RAVE(1000,k=3000)_vs_MCTS(500)_50g' already complete — using cached result.
+07:00:14  'RAVE(1000,k=3000)_vs_MCTS(500)_50g' already complete — using cached result.
+08:06:23  'RAVE(1000,k=3000)_vs_MCTS(500)_50g' already complete — using cached result.

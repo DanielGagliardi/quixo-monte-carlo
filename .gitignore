@@ -9,6 +9,8 @@ venv/
 env/
 ENV/
 
+/results/
+
 # Build and packaging artifacts
 build/
 dist/

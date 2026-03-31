@@ -1,0 +1,66 @@
+13:06:21  Starting 'GRAVE(500,k=300,t=5,C=0.1)_vs_MCTS(500)_50g' — 50 games (GRAVE(500,k=300,t=5,C=0.1) vs MCTS(500))
+13:06:31    [W] game   1/50  (a1=P1)  raw=+1  a1=+1
+13:06:41    [W] game   2/50  (a1=P1)  raw=+1  a1=+1
+13:06:47    [W] game   3/50  (a1=P1)  raw=+1  a1=+1
+13:06:58    [W] game   4/50  (a1=P1)  raw=+1  a1=+1
+13:07:03    [W] game   5/50  (a1=P1)  raw=+1  a1=+1
+13:07:10    [W] game   6/50  (a1=P1)  raw=+1  a1=+1
+13:07:22    [W] game   7/50  (a1=P1)  raw=+1  a1=+1
+13:07:34    [W] game   8/50  (a1=P1)  raw=+1  a1=+1
+13:07:46    [W] game   9/50  (a1=P1)  raw=+1  a1=+1
+13:08:00    [W] game  10/50  (a1=P1)  raw=+1  a1=+1
+13:08:08    [W] game  11/50  (a1=P1)  raw=+1  a1=+1
+13:08:16    [W] game  12/50  (a1=P1)  raw=+1  a1=+1
+13:08:25    [W] game  13/50  (a1=P1)  raw=+1  a1=+1
+13:08:34    [W] game  14/50  (a1=P1)  raw=+1  a1=+1
+13:08:43    [W] game  15/50  (a1=P1)  raw=+1  a1=+1
+13:08:48    [W] game  16/50  (a1=P1)  raw=+1  a1=+1
+13:09:00    [W] game  17/50  (a1=P1)  raw=+1  a1=+1
+13:09:08    [W] game  18/50  (a1=P1)  raw=+1  a1=+1
+13:09:16    [W] game  19/50  (a1=P1)  raw=+1  a1=+1
+13:09:26    [W] game  20/50  (a1=P1)  raw=+1  a1=+1
+13:09:33    [W] game  21/50  (a1=P1)  raw=+1  a1=+1
+13:09:40    [W] game  22/50  (a1=P1)  raw=+1  a1=+1
+13:09:51    [W] game  23/50  (a1=P1)  raw=+1  a1=+1
+13:10:04    [W] game  24/50  (a1=P1)  raw=+1  a1=+1
+13:10:11    [W] game  25/50  (a1=P1)  raw=+1  a1=+1
+13:10:22    [L] game  26/50  (a1=P2)  raw=+1  a1=-1
+13:10:40    [L] game  27/50  (a1=P2)  raw=+1  a1=-1
+13:10:47    [L] game  28/50  (a1=P2)  raw=+1  a1=-1
+13:11:03    [W] game  29/50  (a1=P2)  raw=-1  a1=+1
+13:11:12    [L] game  30/50  (a1=P2)  raw=+1  a1=-1
+13:11:23    [L] game  31/50  (a1=P2)  raw=+1  a1=-1
+13:11:37    [L] game  32/50  (a1=P2)  raw=+1  a1=-1
+13:11:47    [L] game  33/50  (a1=P2)  raw=+1  a1=-1
+13:11:54    [W] game  34/50  (a1=P2)  raw=-1  a1=+1
+13:12:03    [W] game  35/50  (a1=P2)  raw=-1  a1=+1
+13:12:15    [W] game  36/50  (a1=P2)  raw=-1  a1=+1
+13:12:23    [L] game  37/50  (a1=P2)  raw=+1  a1=-1
+13:12:30    [W] game  38/50  (a1=P2)  raw=-1  a1=+1
+13:12:44    [L] game  39/50  (a1=P2)  raw=+1  a1=-1
+13:12:57    [L] game  40/50  (a1=P2)  raw=+1  a1=-1
+13:13:05    [W] game  41/50  (a1=P2)  raw=-1  a1=+1
+13:13:32    [W] game  42/50  (a1=P2)  raw=-1  a1=+1
+13:13:37    [L] game  43/50  (a1=P2)  raw=+1  a1=-1
+13:13:56    [W] game  44/50  (a1=P2)  raw=-1  a1=+1
+13:14:04    [L] game  45/50  (a1=P2)  raw=+1  a1=-1
+13:14:08    [L] game  46/50  (a1=P2)  raw=+1  a1=-1
+13:14:22    [L] game  47/50  (a1=P2)  raw=+1  a1=-1
+13:14:33    [W] game  48/50  (a1=P2)  raw=-1  a1=+1
+13:14:45    [L] game  49/50  (a1=P2)  raw=+1  a1=-1
+13:14:58    [L] game  50/50  (a1=P2)  raw=+1  a1=-1
+13:14:58  
+──────────────────────────────────────────────────────
+  GRAVE(500,k=300,t=5,C=0.1)vs MCTS(500)
+  Games  : 50/50  (516.7s)
+  Wins   :  34 ( 68.0%)
+  Draws  :   0 (  0.0%)
+  Losses :  16 ( 32.0%)
+──────────────────────────────────────────────────────
+18:03:34  'GRAVE(500,k=300,t=5,C=0.1)_vs_MCTS(500)_50g' already complete — using cached result.
+19:05:07  'GRAVE(500,k=300,t=5,C=0.1)_vs_MCTS(500)_50g' already complete — using cached result.
+20:02:57  'GRAVE(500,k=300,t=5,C=0.1)_vs_MCTS(500)_50g' already complete — using cached result.
+21:06:58  'GRAVE(500,k=300,t=5,C=0.1)_vs_MCTS(500)_50g' already complete — using cached result.
+22:28:34  'GRAVE(500,k=300,t=5,C=0.1)_vs_MCTS(500)_50g' already complete — using cached result.
+07:00:14  'GRAVE(500,k=300,t=5,C=0.1)_vs_MCTS(500)_50g' already complete — using cached result.
+08:06:23  'GRAVE(500,k=300,t=5,C=0.1)_vs_MCTS(500)_50g' already complete — using cached result.
