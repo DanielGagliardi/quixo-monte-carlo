@@ -1,0 +1,11 @@
+# Optional dependencies for full project functionality.
+# Core MCTS scripts (game_engine.py, mcts_uct.py, mcts_rave.py, mcts_grave.py,
+# benchmark_search.py) use only the Python standard library.
+
+pygame
+numpy
+torch
+jupyter
+matplotlib
+pandas
+networkx
